@@ -16,7 +16,7 @@ You should start with a regular binary tree, using the code from the Binary Tree
 # Group work
 
 ## Group Members:
-* [Benedikt Korbach][(https://pages.github.com/](https://github.com/benedikt-korbach))
+* [Benedikt Korbach](https://github.com/benedikt-korbach))
 ## Answers to Assignment Questions:
 * What is the main difference between a binary search tree and a binary tree?
 
@@ -26,7 +26,7 @@ You should start with a regular binary tree, using the code from the Binary Tree
 
   The middle step between a binary tree and a binary search tree could be performing an in-order traversal of the binary tree, which will visit the nodes in a sorted order (if the tree were a binary search tree). The in-order traversal output can be used to construct a new binary search tree or modify the existing binary tree to adhere to the binary search tree rules.
 
-## This code was built using files from the [BinaryTree Assignment]([https://pages.github.com/](https://github.com/hertie-data-science-lab/binarytreeassigment-Alvaroguijarro97)).
+## This code was built using files from the [BinaryTree Assignment](https://github.com/hertie-data-science-lab/binarytreeassigment-Alvaroguijarro97)).
 
   * treetemplate.py
   * binarytree.py
