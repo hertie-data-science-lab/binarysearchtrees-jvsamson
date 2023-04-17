@@ -9,9 +9,15 @@ Created on Mon Apr 17 13:01:59 2023
 - Alvaro Guijarro (GitHub: Alvaroguijarro97)
 """
 
-from mlbt import MutableLinkedBinaryTree
 
 def in_order_traversal(tree, position):
+    """
+    Performs an in-order traversal of a binary tree.
+    
+    Args:
+        tree: The binary tree to traverse.
+        position: The starting position for the traversal.
+    """
     if tree.left(position) is not None:
         in_order_traversal(tree, tree.left(position))
     print(position.element(), end=" ")
@@ -19,6 +25,14 @@ def in_order_traversal(tree, position):
         in_order_traversal(tree, tree.right(position))
 
 def construct_bst(tree, position, elements):
+    """
+    Constructs a Binary Search Tree (BST) from a sorted list of elements.
+
+    Args:
+        tree: The binary tree to modify.
+        position: The position at which to insert the elements.
+        elements: A sorted list of elements to insert.
+    """
     if len(elements) == 0:
         return
     mid = len(elements) // 2
@@ -35,8 +49,13 @@ def construct_bst(tree, position, elements):
         construct_bst(tree, tree.left(position), left_elements)
         construct_bst(tree, tree.right(position), right_elements)
 
-
 def convert_to_bst(tree):
+    """
+    Converts a binary tree to a Binary Search Tree (BST).
+
+    Args:
+        tree: The binary tree to convert.
+    """
     in_order_elements = [p.element() for p in tree.inorder()]
     in_order_elements.sort()
     construct_bst(tree, tree.root(), in_order_elements)

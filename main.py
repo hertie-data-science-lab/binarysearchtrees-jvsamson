@@ -9,7 +9,8 @@ Created on Mon Apr 17 14:03:47 2023
 - Alvaro Guijarro (GitHub: Alvaroguijarro97)
 """
 
-from tree_converter import MutableLinkedBinaryTree, in_order_traversal, construct_bst, convert_to_bst
+from mlbt import MutableLinkedBinaryTree
+from tree_converter import in_order_traversal, convert_to_bst
 
 
 if __name__ == "__main__":
