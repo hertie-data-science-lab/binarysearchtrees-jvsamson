@@ -20,10 +20,6 @@ You should start with a regular binary tree, using the code from the Binary Tree
 * [Niklas Pawelzik](https://github.com/nikpaw)
 * [Justus v. Samson-Himmelstjerna](https://github.com/jvsamson)
 * [Alvaro Guijarro](https://github.com/Alvaroguijarro97)
-  
-## Description:
-
-This group project aims to enhance and extend the capabilities of the BinaryTree Assignment. Our project focuses on improving the BinaryTree class, adding new methods for analysis, and providing visualization tools to better understand the structure and properties of binary trees. This will enable users to easily perform complex operations on binary trees and gain insights into their characteristics and behavior.
 
 ## Answers to Assignment Questions:
 * What is the main difference between a binary search tree and a binary tree?
