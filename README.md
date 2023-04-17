@@ -16,7 +16,9 @@ You should start with a regular binary tree, using the code from the Binary Tree
 
 # Answers to Assignment Questions:
 * What is the main difference between a binary search tree and a binary tree?
+
   The main difference between a binary search tree and a binary tree is that in a binary search tree, for each node, all the elements in the left subtree are smaller than the node's value, and all the elements in the right subtree are greater than or equal to the node's value. In a regular binary tree, there is no specific ordering rule.
 
 * What could be the middle step between a binary tree and a binary search tree?
+
   The middle step between a binary tree and a binary search tree could be performing an in-order traversal of the binary tree, which will visit the nodes in a sorted order (if the tree were a binary search tree). The in-order traversal output can be used to construct a new binary search tree or modify the existing binary tree to adhere to the binary search tree rules.
