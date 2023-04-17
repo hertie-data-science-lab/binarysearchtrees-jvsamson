@@ -13,7 +13,7 @@ You should start with a regular binary tree, using the code from the Binary Tree
 * Do exactly what is asked. There will be no points for *Above and Beyond* this assignment.
 * List your group's members in the header of the main file.
 
-# Group work
+
 
 ## Group Members:
 * [Benedikt Korbach](https://github.com/benedikt-korbach)
