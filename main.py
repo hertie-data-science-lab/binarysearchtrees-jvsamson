@@ -19,14 +19,14 @@ if __name__ == "__main__":
     lbt.add_left(lbt.root(), 3)
     lbt.add_right(lbt.root(), 1)
 
-    l = lbt.left(lbt.root())
-    r = lbt.right(lbt.root())
+    left = lbt.left(lbt.root())
+    right = lbt.right(lbt.root())
 
-    lbt.add_left(l, 2)
-    lbt.add_right(l, 6)
+    lbt.add_left(left, 2)
+    lbt.add_right(left, 6)
 
-    lbt.add_left(r, 9)
-    lbt.add_right(r, 7)
+    lbt.add_left(right, 9)
+    lbt.add_right(right, 7)
 
     print("Original Tree (In-order traversal):")
     in_order_traversal(lbt, lbt.root())

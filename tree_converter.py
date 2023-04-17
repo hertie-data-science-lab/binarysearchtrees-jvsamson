@@ -13,7 +13,7 @@ Created on Mon Apr 17 13:01:59 2023
 def in_order_traversal(tree, position):
     """
     Performs an in-order traversal of a binary tree.
-    
+
     Args:
         tree: The binary tree to traverse.
         position: The starting position for the traversal.
@@ -23,6 +23,7 @@ def in_order_traversal(tree, position):
     print(position.element(), end=" ")
     if tree.right(position) is not None:
         in_order_traversal(tree, tree.right(position))
+
 
 def construct_bst(tree, position, elements):
     """
@@ -48,6 +49,7 @@ def construct_bst(tree, position, elements):
 
         construct_bst(tree, tree.left(position), left_elements)
         construct_bst(tree, tree.right(position), right_elements)
+
 
 def convert_to_bst(tree):
     """
